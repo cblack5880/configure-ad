@@ -22,7 +22,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h2>High-Level Deployment and Configuration Steps</h2>
 
 - Building Azure accounts- resource group and virtual machines.
-- Step 2
+- Install Active Directory
 - Step 3
 - Step 4
 
@@ -35,6 +35,17 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 ![image](https://github.com/cblack5880/configure-ad/assets/138612466/f8057fef-a6db-46ef-a1d0-bdf282e7e0c4)
 Changing Domain Controller IP address to Static
+
+
+<h2>Install Active Directory</h2>
+
+The following pictures will show this:
+Login to DC-1 and install Active Directory Domain Services
+
+Promote as a DC: Setup a new forest as mydomain.com
+
+Restart and then log back into DC-1 as user: mydomain.com\labuser
+
 
 
 <p>
