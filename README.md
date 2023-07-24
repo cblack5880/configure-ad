@@ -28,6 +28,15 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>Deployment and Configuration Steps</h2>
 
+
+![image](https://github.com/cblack5880/configure-ad/assets/138612466/f0059d2d-562c-4c13-86d3-904acb93c816)
+
+![image](https://github.com/cblack5880/configure-ad/assets/138612466/84bb0584-2a80-46c2-9517-7dd442220fbc)
+
+![image](https://github.com/cblack5880/configure-ad/assets/138612466/f8057fef-a6db-46ef-a1d0-bdf282e7e0c4)
+Changing Domain Controller IP address to Static
+
+
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
