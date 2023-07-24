@@ -40,35 +40,25 @@ Changing Domain Controller IP address to Static
 <h2>Install Active Directory</h2>
 
 The following pictures will show this:
+
 Login to DC-1 and install Active Directory Domain Services
 
 Promote as a DC: Setup a new forest as mydomain.com
 
 Restart and then log back into DC-1 as user: mydomain.com\labuser
 
+![image](https://github.com/cblack5880/configure-ad/assets/138612466/e7b0fbab-fdb1-445e-87e4-f4c329cfd35f)
+Install Active Directory from Server Manager in DC-1.
+
+![image](https://github.com/cblack5880/configure-ad/assets/138612466/b82c4cb3-21dd-44e8-b7bc-8d9941ebe22a)
+Click here to promote the server to a Domain Controller.
+
+![image](https://github.com/cblack5880/configure-ad/assets/138612466/b0f64109-2def-465d-bb41-0ad3126e09c5)
+Setting up a new forest/ domain name that all users would use to login.
+
+![image](https://github.com/cblack5880/configure-ad/assets/138612466/3ea721ff-8467-4333-bc7b-84c03abe7294)
+DC-1 Remote desktop will close after installing new forest. When you open it again, you would have to use "mydomain.com\labuer" to login.
 
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
 # configure-ad
