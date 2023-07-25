@@ -23,8 +23,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 - Building Azure accounts- resource group and virtual machines.
 - Install Active Directory
-- Step 3
-- Step 4
+
 
 <h2>Deployment and Configuration Steps</h2>
 
@@ -58,6 +57,11 @@ Setting up a new forest/ domain name that all users would use to login.
 
 ![image](https://github.com/cblack5880/configure-ad/assets/138612466/3ea721ff-8467-4333-bc7b-84c03abe7294)
 DC-1 Remote desktop will close after installing new forest. When you open it again, you would have to use "mydomain.com\labuer" to login.
+
+![image](https://github.com/cblack5880/configure-ad/assets/138612466/78261750-4547-47f7-bba0-32786acf33f8)
+Once, DC-1 is back opened, Click tools and open Active Directory Users and Computers
+YOu would also create 2 organizational units - Employees and Admins.
+
 
 
 
