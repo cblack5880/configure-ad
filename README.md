@@ -70,5 +70,20 @@ You would have to right-click the user and go to properties, and add the user to
 
 ![image](https://github.com/cblack5880/configure-ad/assets/138612466/2e6f8ef0-a960-407e-b1da-d13b398ded5d)
 
+Now I'm going to Log out/close the Remote Desktop connection to DC-1 and log back in as “mydomain.com\jane_admin”.
+
+![image](https://github.com/cblack5880/configure-ad/assets/138612466/7318cbda-4dab-4fd5-b3cc-cf807eebe53b)
+
+Next I will set Client-1’s DNS settings to the DC’s Private IP address.
+
+![image](https://github.com/cblack5880/configure-ad/assets/138612466/cca88262-b560-4e50-a5fe-bb40ae6e8950)
+![image](https://github.com/cblack5880/configure-ad/assets/138612466/a1a64c89-4969-4817-b911-ff5d79a497d8)
+![image](https://github.com/cblack5880/configure-ad/assets/138612466/61e91a11-a870-4951-8e7c-770cd2bf68e4)
+
+Now I will restart  Client-1 virtual machine from Azure
+When Clent-1 is back up, Remane your pc to Mydomain in the domain section. From there, you would put in the my domain credentials for Jane_admin. 
+
+![image](https://github.com/cblack5880/configure-ad/assets/138612466/3a25afe7-add6-4925-8746-db85d8db74a4)
+
 
 # configure-ad
