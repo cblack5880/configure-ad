@@ -89,5 +89,24 @@ Once Client-1 is back up, you can check which users has access to this PC. Jane_
 
 ![image](https://github.com/cblack5880/configure-ad/assets/138612466/15e706bc-49af-4418-88d9-7189fb358552)
 
+To add multiple users, we would add a group policy that will allow many users to access this PC. 
 
+![image](https://github.com/cblack5880/configure-ad/assets/138612466/4732ebac-0613-4a3f-9aa2-feab44d5b677)
+
+Create a bunch of additional users and attempt to log into client-1 with one of the users
+Login to DC-1 as jane_admin
+Open PowerShell_ise as an administrator
+
+![image](https://github.com/cblack5880/configure-ad/assets/138612466/3c99534e-8fca-4e81-9949-1958b1d7cfe8)
+![image](https://github.com/cblack5880/configure-ad/assets/138612466/c822a448-b5fa-497a-b2ec-5432564eb958)
+
+I used a script to add to PowerShell, to create 10 users.
+
+![image](https://github.com/cblack5880/configure-ad/assets/138612466/45bac663-ff53-4b72-b09d-fb07ec594a81)
+
+I checked Active Directory, and the users were created. 
+
+![image](https://github.com/cblack5880/configure-ad/assets/138612466/5cea161c-1717-4b10-b71d-0f2429cdfa30)
+
+Now I can log in with any of these users in Client-1 and it will give me access under mydomain.com\
 # configure-ad
