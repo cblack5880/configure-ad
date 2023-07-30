@@ -23,7 +23,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 - Building Azure accounts- resource group and virtual machines.
 - Install Active Directory
-
+- Use PowerShell to create accounts for mydomain.com
 
 <h2>Deployment and Configuration Steps</h2>
 
