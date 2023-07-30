@@ -85,5 +85,9 @@ When Clent-1 is back up, Remane your pc to Mydomain in the domain section. From 
 
 ![image](https://github.com/cblack5880/configure-ad/assets/138612466/3a25afe7-add6-4925-8746-db85d8db74a4)
 
+Once Client-1 is back up, you can check which users has access to this PC. Jane_admin will show in system settings.
+
+![image](https://github.com/cblack5880/configure-ad/assets/138612466/15e706bc-49af-4418-88d9-7189fb358552)
+
 
 # configure-ad
