@@ -53,16 +53,22 @@ Install Active Directory from Server Manager in DC-1.
 Click here to promote the server to a Domain Controller.
 
 ![image](https://github.com/cblack5880/configure-ad/assets/138612466/b0f64109-2def-465d-bb41-0ad3126e09c5)
-Setting up a new forest/ domain name that all users would use to login.
+Setting up a new forest/ domain name that all users would use to log in.
 
 ![image](https://github.com/cblack5880/configure-ad/assets/138612466/3ea721ff-8467-4333-bc7b-84c03abe7294)
 DC-1 Remote desktop will close after installing new forest. When you open it again, you would have to use "mydomain.com\labuer" to login.
 
 ![image](https://github.com/cblack5880/configure-ad/assets/138612466/78261750-4547-47f7-bba0-32786acf33f8)
+
 Once, DC-1 is back opened, Click tools and open Active Directory Users and Computers
-YOu would also create 2 organizational units - Employees and Admins.
+You would also create 2 organizational units - Employees and Admins.
 
+![image](https://github.com/cblack5880/configure-ad/assets/138612466/2498fe3f-7d7e-499a-8a6f-bf1b0109ae75)
 
+Right-click in _Admins box to create a New user. There will be more settings to select after creating the user.
+You would have to right-click the user and go to properties, and add the user to a domain. This shows that I'm adding the user to "Domain Admins". 
+
+![image](https://github.com/cblack5880/configure-ad/assets/138612466/2e6f8ef0-a960-407e-b1da-d13b398ded5d)
 
 
 # configure-ad
